@@ -27,3 +27,10 @@ can
 | docking station | release_bike |
 | bike | see_if_working |
 
+
+Diagram:
+
+person
+bike -- use
+docking station -- release_bike 
+bike -- working? -- true/false
