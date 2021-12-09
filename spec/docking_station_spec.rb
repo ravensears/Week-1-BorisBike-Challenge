@@ -18,4 +18,19 @@ describe DockingStation do
       expect(bike.working?).to eq true
       end
     end
-end
+
+    describe 'dock_bike' do
+      it { is_expected.to respond_to :dock_bike }
+    end
+  end
+
+=begin
+    it "can say if it has a bike" do
+      # Arrange
+      station = DockingStation.new
+      bike = station.dock_bike
+      #ACtions
+      #Assert
+      expect(dock_bike(@docked_bike)).not_to eq nil
+    end
+=end
