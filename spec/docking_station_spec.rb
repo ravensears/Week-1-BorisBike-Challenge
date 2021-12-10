@@ -19,7 +19,6 @@ describe DockingStation do
       end
     end
 
-<<<<<<< HEAD
     it 'docks something' do
       bike = Bike.new
       expect(subject.dock(bike)).to eq bike  
@@ -31,20 +30,3 @@ describe DockingStation do
       expect(subject.bike).to eq bike
     end
 end
-=======
-    describe 'dock_bike' do
-      it { is_expected.to respond_to :dock_bike }
-    end
-  end
-
-=begin
-    it "can say if it has a bike" do
-      # Arrange
-      station = DockingStation.new
-      bike = station.dock_bike
-      #ACtions
-      #Assert
-      expect(dock_bike(@docked_bike)).not_to eq nil
-    end
-=end
->>>>>>> ea0859e0d496fc842f8be996f138ec9917a75ae4
